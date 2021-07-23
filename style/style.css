@@ -1,0 +1,64 @@
+section, 
+footer {
+    padding: 60px 0px;
+}
+.navbar-brand {
+    font-size: 40px;
+
+}
+.navbar-name {
+    font-size: 40px;
+    padding: 5px 0;
+
+}
+
+.showcase-img {
+    background-size: cover;
+    background-position: center;
+}
+
+
+.showcase {
+    padding: 0;
+}
+
+.team-item {
+    max-width: 200px;
+}
+
+.call-to-action {
+    background-image: url(../img/slider-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .service-item, 
+    .team-item {
+        margin-bottom: 50px;
+    }
+    .service-item:last-child, 
+    .team-item-last {
+        margin: 0;
+    }
+    .showcase-img {
+        height: 300px;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .navbar-name {
+        font-size: 20px;
+    }
+}
